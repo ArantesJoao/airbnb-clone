@@ -70,10 +70,9 @@ const ListingClient: React.FC<ListingClientProps> = ({
       endDate: dateRange.endDate,
       listingId: listing?.id
     }).then(() => {
-      toast.success('Listin reserved!')
+      toast.success('Listing reserved!')
       setDateRange(initialDateRange)
-      // Redirect to /trips
-      router.refresh()
+      router.push('/trips')
     }).catch(() => {
       toast.error('Something went wrong.')
     })
