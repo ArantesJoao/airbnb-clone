@@ -36,7 +36,7 @@ export const authOptions: AuthOptions = {
         })
 
         if (!user || !user?.hashedPassword) {
-          throw new Error("Invalid credentials")
+          throw new Error("This user doesen't exist!")
         }
 
         const isCorrectPassword = await bcrypt.compare(
