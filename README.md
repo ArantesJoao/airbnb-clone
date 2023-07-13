@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Airbnb Clone
 
-## Getting Started
+![Website Preview](.github/airbnb_clone_banner.png)
 
-First, run the development server:
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Technologies](#technologies)
+3. [Features](#features)
+4. [Setup](#setup)
+5. [Acknowledgement](#acknowledgement)
+
+## Introduction
+
+Welcome to my Airbnb Clone project! This project is a functional clone of the popular travel website, Airbnb, built to showcase my frontend development skills and my ability to learn and adapt to new technologies.
+
+I chose Airbnb because of its appealing design and complex functionality. Recreating it was both challenging and fun, and gave me the opportunity to push my coding abilities further.
+
+**This project has been deployed on Vercel and can be accessed [here](https://rent-website-clone-arantes.vercel.app).**
+
+## Technologies
+
+This project was developed using the following technologies:
+- **ReactJS**: A JavaScript library for building user interfaces
+- **Next.js 13**: A framework for building server-side rendering and static web applications using React
+- **Tailwind CSS**: A utility-first CSS framework packed with classes like flex, pt-4, text-center for building responsive interfaces.
+- **Vercel**: Platform for static sites and Serverless Functions 
+
+## Features
+
+This clone replicates many of Airbnb's features including:
+
+- Home page with multiple sections
+- Search functionality
+- Detailed property page 
+- User authentication 
+- And much more!
+
+## Setup
+
+To run this project locally, clone the repository and install the dependencies:
+
+```bash
+git clone https://github.com/arantesjoao/airbnb-clone.git
+cd airbnb-clone
+npm install
+```
+
+Once the dependencies are installed, you can start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then grab the necessary API keys and add them to your .env file and open http://localhost:3000 with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Acknowledgement
+I want to express my gratitude to [Code With Antonio](https://www.youtube.com/@codewithantonio) on YouTube, who provided a detailed tutorial that helped me a lot on the development of this project. I learned a lot from this tutorial and it has helped me build this to what it is now.
 
-## Learn More
+This project is part of my portfolio. If you have any questions or would like to discuss the project further, or work with me, please feel free to contact me!
 
-To learn more about Next.js, take a look at the following resources:
+João Víctor Arantes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[LinkedIn](https://www.linkedin.com/in/joaovictorarantes/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[Email](mailto:arantesjoaov@gmail.com)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Enjoy exploring the project! 😊
